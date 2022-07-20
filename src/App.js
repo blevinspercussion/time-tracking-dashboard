@@ -5,7 +5,7 @@ import DetailCard from './components/DetailCard';
 function App() {
   return (
     <div className="App">
-
+      <UserCard />
     </div>
   );
 }
