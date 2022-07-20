@@ -18,7 +18,14 @@
 }
 
 .App {
-  display: grid;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-
+ul {
+  list-style: none;
+}
