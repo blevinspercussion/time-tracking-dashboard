@@ -19,8 +19,8 @@
 
 #main-content {
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 2;
+    grid-template-columns: 4 1fr;
+    grid-template-rows: 2 1fr;
 }
 
 #user-card {
@@ -71,5 +71,5 @@
 }
 
 .detail-card {
-    
+
 }

@@ -1,9 +1,9 @@
 import './components.css';
 
-function DetailCard () {
+function DetailCard ({item, title, current, previous}) {
     return (
         <div>
-
+            <p>{title}</p>
         </div>
     )
 }

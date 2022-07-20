@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       <div id='main-content'>
         <UserCard />
-        {info.map((item) => {
+        {console.log(info)}
+        {info.map((item) => (
           <DetailCard 
             key={item.title}
             item={item}
@@ -20,7 +21,7 @@ function App() {
             current={item.timeframes.daily.current}
             previous={item.timeframes.daily.previous}
             />
-        })}
+        ))}
       </div>
     </div>
   );
